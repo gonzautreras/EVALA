@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="EVALA IA">
+  <rect width="120" height="120" rx="28" fill="#F7F8F0"/>
+  <g stroke="#355872" stroke-width="4" fill="none" opacity="0.9">
+    <polygon points="60,16 94,34 94,86 60,104 26,86 26,34" />
+    <line x1="60" y1="16" x2="60" y2="104" />
+    <line x1="26" y1="34" x2="94" y2="86" />
+    <line x1="94" y1="34" x2="26" y2="86" />
+  </g>
+  <g fill="#7AAACE">
+    <circle cx="60" cy="16" r="5"/>
+    <circle cx="94" cy="34" r="5"/>
+    <circle cx="94" cy="86" r="5"/>
+    <circle cx="60" cy="104" r="5"/>
+    <circle cx="26" cy="86" r="5"/>
+    <circle cx="26" cy="34" r="5"/>
+    <circle cx="60" cy="60" r="6" fill="#355872"/>
+  </g>
+</svg>

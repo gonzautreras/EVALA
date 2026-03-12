@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVALA IA | Acceso Chat Operativo</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="auth-page">
+    <header class="auth-header">
+      <div class="brand-stack">
+        <div class="eyebrow">Instituto Nacional de Evaluación Educativa</div>
+        <h1><span class="brand">Evala</span> <span class="brand-ia">IA</span></h1>
+        <p class="subtitle">Acceso al módulo de Chat Operativo</p>
+      </div>
+    </header>
+
+    <main class="auth-main">
+      <section class="auth-card">
+        <h2>Ingresar al chat</h2>
+        <p class="muted">Usa tu usuario asignado para registrar incidentes.</p>
+
+        <form id="loginForm" class="auth-form">
+          <label>Usuario</label>
+          <input id="username" type="text" placeholder="Ej: tecnico1" required />
+
+          <label>Clave</label>
+          <input id="password" type="password" placeholder="••••" required />
+
+          <button type="submit" class="btn primary">Ingresar</button>
+          <p id="loginError" class="auth-error" aria-live="polite"></p>
+        </form>
+
+        <div class="auth-links">
+          <a href="/dashboard" class="btn ghost">Volver al dashboard</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">MVP EVALA - EduData Crew</footer>
+
+    <script src="/auth.js"></script>
+    <script src="/chat-login.js"></script>
+  </body>
+</html>

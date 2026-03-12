@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVALA | Gestión de Casos</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/cases.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">Instituto Nacional de Evaluación Educativa</div>
+        <h1><span class="brand">Evala</span> <span class="brand-ia">IA</span> — Gestión de Casos</h1>
+        <p class="subtitle">Revisión y actualización de incidentes registrados.</p>
+      </div>
+      <div class="topbar-actions">
+        <div class="user-chip">
+          <span class="user-dot"></span>
+          <span id="userName">Usuario</span>
+        </div>
+        <div class="session-timer" id="sessionTimer">Sesión expira en 05:00</div>
+        <button id="logoutBtn" class="btn ghost">Cerrar sesión</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="panel cases-panel">
+        <div class="panel-header">
+          <h2>Listado de casos</h2>
+          <span class="muted">Selecciona un caso para gestionarlo</span>
+        </div>
+        <div class="cases-layout">
+          <div class="cases-list" id="casesList"></div>
+          <div class="case-detail" id="caseDetail">
+            <div class="empty">Selecciona un caso para ver el detalle.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">MVP EVALA - EduData Crew</footer>
+
+    <script src="/auth.js"></script>
+    <script src="/cases.js"></script>
+  </body>
+</html>

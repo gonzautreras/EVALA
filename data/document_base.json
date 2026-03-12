@@ -1,0 +1,513 @@
+{
+  "document": {
+    "name": "Matriz de posibles problemas en territorio y protocolos de atención individual",
+    "source": "matriz_problemas_territorio.pdf",
+    "generatedAt": "2026-03-12T19:18:48.840100Z",
+    "criterios_clasificacion": {
+      "Baja": "No compromete gravemente la operación y suele resolverse localmente. Registro y solución en sitio.",
+      "Media": "Afecta parcialmente la ejecución o calidad del dato. Seguimiento y posible escalamiento.",
+      "Alta": "Compromete cumplimiento, tiempo o calidad del operativo. Atención prioritaria y escalamiento inmediato. incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territoriales",
+      "Crítica": "Pone en riesgo integridad, continuidad del servicio o validez general del proceso. Contención inmediata y activación de responsables."
+    },
+    "protocolo_general_minimo": [
+      "Identificar el incidente y confirmar su categoría operacional.",
+      "Aplicar la acción inicial establecida para ese tipo de evento.",
+      "Escalar a coordinación, supervisión o soporte cuando el umbral lo requiera.",
+      "Registrar hora, ubicación, evidencia, descripción homologada y estado del caso.",
+      "Cerrar, reprogramar o dejar pendiente con trazabilidad clara y responsable asignado. operativo - Matriz de incidentes territoriales"
+    ]
+  },
+  "incidents": [
+    {
+      "id": 1,
+      "problema": "No localización de la sede",
+      "descripcion": "El técnico no encuentra la institución o el punto asignado",
+      "protocolo": "Verificar dirección y referencias; contactar al enlace local; validar mapa; escalar si no se ubica en tiempo razonable; registrar hora, intento y evidencia.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "asignado",
+        "encuentra",
+        "institución",
+        "localización",
+        "punto",
+        "sede",
+        "técnico"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 1"
+    },
+    {
+      "id": 2,
+      "problema": "Ausencia del responsable local",
+      "descripcion": "No se encuentra la autoridad o delegado que debe atender la visita",
+      "protocolo": "Presentarse formalmente; solicitar reemplazo autorizado; llamar al contacto; esperar el tiempo definido; escalar y dejar constancia de visita fallida.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "atender",
+        "ausencia",
+        "autoridad",
+        "debe",
+        "delegado",
+        "encuentra",
+        "local",
+        "responsable",
+        "visita"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 2"
+    },
+    {
+      "id": 3,
+      "problema": "Negativa de acceso al establecimiento",
+      "descripcion": "El personal local impide el ingreso o desconoce la visita",
+      "protocolo": "Identificarse con credencial; explicar objetivo; exhibir comunicación oficial; evitar confrontación; escalar a coordinación; registrar evidencia.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "acceso",
+        "desconoce",
+        "establecimiento",
+        "impide",
+        "ingreso",
+        "local",
+        "negativa",
+        "personal",
+        "visita"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 3"
+    },
+    {
+      "id": 4,
+      "problema": "Información incompleta o inconsistente",
+      "descripcion": "Se entregan datos parciales, contradictorios o de baja confiabilidad",
+      "protocolo": "Reformular preguntas clave; contrastar con evidencia documental o física; marcar como pendiente de validación; escalar si compromete variables críticas.",
+      "criticidad": "Media",
+      "impacto": "Alto",
+      "keywords": [
+        "baja",
+        "confiabilidad",
+        "contradictorios",
+        "datos",
+        "entregan",
+        "incompleta",
+        "inconsistente",
+        "información",
+        "parciales"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 4"
+    },
+    {
+      "id": 5,
+      "problema": "Fallo de conectividad",
+      "descripcion": "No existe señal móvil, internet o acceso estable a la plataforma",
+      "protocolo": "Verificar red alternativa; activar modo offline o formato temporal;   resguardar datos localmente; sincronizar al restablecerse; reportar zona sin cobertura.",
+      "criticidad": "Media",
+      "impacto": "Medio-Alto",
+      "keywords": [
+        "acceso",
+        "conectividad",
+        "estable",
+        "existe",
+        "fallo",
+        "internet",
+        "móvil",
+        "plataforma",
+        "señal"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 5"
+    },
+    {
+      "id": 6,
+      "problema": "Fallo del dispositivo móvil",
+      "descripcion": "El equipo presenta bloqueo, daño, batería baja o fallas de hardware",
+      "protocolo": "Reiniciar equipo o aplicación; revisar batería y almacenamiento; usar equipo alterno si existe; reportar incidencia; escalar a soporte.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "baja",
+        "batería",
+        "bloqueo",
+        "daño",
+        "dispositivo",
+        "equipo",
+        "fallas",
+        "fallo",
+        "hardware",
+        "móvil",
+        "presenta"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 6"
+    },
+    {
+      "id": 7,
+      "problema": "Error de aplicación o formulario",
+      "descripcion": "La app no guarda, no carga campos o presenta validaciones defectuosas",
+      "protocolo": "Capturar evidencia; reintentar una vez; aplicar ruta alterna autorizada; reportar a soporte; continuar en registro manual temporal.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "aplicación",
+        "campos",
+        "carga",
+        "defectuosas",
+        "error",
+        "formulario",
+        "guarda",
+        "presenta",
+        "validaciones"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 7"
+    },
+    {
+      "id": 8,
+      "problema": "Ubicación GPS errónea",
+      "descripcion": "Las coordenadas no corresponden al sitio visitado",
+      "protocolo": "Revisar permisos de ubicación; repetir la toma en área abierta; confirmar punto manualmente; registrar observación y escalar si afecta trazabilidad.",
+      "criticidad": "Media",
+      "impacto": "Medio",
+      "keywords": [
+        "coordenadas",
+        "corresponden",
+        "errónea",
+        "sitio",
+        "ubicación",
+        "visitado"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 8"
+    },
+    {
+      "id": 9,
+      "problema": "Riesgo de seguridad personal",
+      "descripcion": "Existe amenaza, violencia, alteración del orden o entorno inseguro",
+      "protocolo": "Suspender la actividad; retirarse a zona segura; informar de inmediato al supervisor; no insistir en la visita; registrar el evento cuando sea seguro.",
+      "criticidad": "Crítica",
+      "impacto": "Muy alto",
+      "keywords": [
+        "alteración",
+        "amenaza",
+        "entorno",
+        "existe",
+        "inseguro",
+        "orden",
+        "personal",
+        "riesgo",
+        "seguridad",
+        "violencia"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 9"
+    },
+    {
+      "id": 10,
+      "problema": "Condiciones climáticas adversas",
+      "descripcion": "Lluvia intensa, inundación, deslizamiento u otro evento impide el desplazamiento",
+      "protocolo": "Evaluar riesgo real; reprogramar si no existen condiciones seguras; informar a coordinación;   documentar la novedad con evidencia contextual.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "adversas",
+        "climáticas",
+        "condiciones",
+        "deslizamiento",
+        "desplazamiento",
+        "evento",
+        "impide",
+        "intensa",
+        "inundación",
+        "lluvia",
+        "otro"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 10"
+    },
+    {
+      "id": 11,
+      "problema": "Conflicto con actor local",
+      "descripcion": "Se genera discusión, malentendido o resistencia durante la atención",
+      "protocolo": "Mantener trato neutral; reexplicar el alcance de la visita; evitar confrontación; solicitar apoyo institucional; escalar si persiste.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "actor",
+        "atención",
+        "conflicto",
+        "discusión",
+        "durante",
+        "genera",
+        "local",
+        "malentendido",
+        "resistencia"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 11"
+    },
+    {
+      "id": 12,
+      "problema": "Identidad dudosa del informante",
+      "descripcion": "La persona que responde no acredita rol o competencia para entregar datos",
+      "protocolo": "Solicitar identificación o respaldo de cargo; validar autorización; no cerrar registro como validado sin confirmación; escalar a la autoridad competente.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "acredita",
+        "competencia",
+        "datos",
+        "dudosa",
+        "entregar",
+        "identidad",
+        "informante",
+        "para",
+        "persona",
+        "responde"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 12"
+    },
+    {
+      "id": 13,
+      "problema": "Evidencia documental no disponible",
+      "descripcion": "No existen respaldos físicos o digitales para verificar lo informado",
+      "protocolo": "Registrar ausencia de evidencia; solicitar envío posterior si el protocolo lo permite; dejar el caso condicionado o pendiente; escalar si el soporte es obligatorio.",
+      "criticidad": "Media",
+      "impacto": "Medio-Alto",
+      "keywords": [
+        "digitales",
+        "disponible",
+        "documental",
+        "evidencia",
+        "existen",
+        "físicos",
+        "informado",
+        "para",
+        "respaldos",
+        "verificar"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 13"
+    },
+    {
+      "id": 14,
+      "problema": "Cierre inesperado de la sede",
+      "descripcion": "La sede está cerrada por suspensión, feriado o decisión local",
+      "protocolo": "Verificar horario y motivo del cierre; tomar evidencia externa; informar a coordinación; reprogramar de acuerdo con lineamientos.",
+      "criticidad": "Media",
+      "impacto": "Medio",
+      "keywords": [
+        "cerrada",
+        "cierre",
+        "decisión",
+        "está",
+        "feriado",
+        "inesperado",
+        "local",
+        "sede",
+        "suspensión"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 14"
+    },
+    {
+      "id": 15,
+      "problema": "Error en asignación de visita",
+      "descripcion": "El técnico fue enviado a una sede incorrecta o con información errónea",
+      "protocolo": "Confirmar orden de trabajo; validar con coordinación territorial; corregir la asignación antes de continuar; registrar la incidencia administrativa.",
+      "criticidad": "Media",
+      "impacto": "Alto",
+      "keywords": [
+        "asignación",
+        "enviado",
+        "error",
+        "errónea",
+        "incorrecta",
+        "información",
+        "sede",
+        "técnico",
+        "visita"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 15"
+    },
+    {
+      "id": 16,
+      "problema": "Demora excesiva en la atención",
+      "descripcion": "El técnico espera demasiado tiempo para ser recibido o atendido",
+      "protocolo": "Cumplir el tiempo máximo de espera; reiterar la solicitud; informar a coordinación si se supera el umbral; registrar la demora. Baja-",
+      "criticidad": "Media",
+      "impacto": "Medio",
+      "keywords": [
+        "atención",
+        "atendido",
+        "demasiado",
+        "demora",
+        "espera",
+        "excesiva",
+        "para",
+        "recibido",
+        "tiempo",
+        "técnico"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 16"
+    },
+    {
+      "id": 17,
+      "problema": "Pérdida de datos levantados",
+      "descripcion": "La información recopilada se elimina o no queda guardada",
+      "protocolo": "Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto",
+      "criticidad": "Alta",
+      "impacto": "Muy alto",
+      "keywords": [
+        "datos",
+        "elimina",
+        "guardada",
+        "información",
+        "levantados",
+        "pérdida",
+        "queda",
+        "recopilada"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 17"
+    },
+    {
+      "id": 19,
+      "problema": "Solicitud fuera del alcance En territorio se piden",
+      "descripcion": "gestiones o respuestas no contempladas en el operativo",
+      "protocolo": "Explicar el alcance de la visita; no comprometer acciones no autorizadas; registrar el requerimiento; canalizar por vía institucional.",
+      "criticidad": "Baja",
+      "impacto": "Medio",
+      "keywords": [
+        "alcance",
+        "contempladas",
+        "fuera",
+        "gestiones",
+        "operativo",
+        "piden",
+        "respuestas",
+        "solicitud",
+        "territorio"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 19"
+    },
+    {
+      "id": 20,
+      "problema": "Emergencia médica Ocurre descompensación, accidente o malestar grave",
+      "descripcion": "durante la visita",
+      "protocolo": "Priorizar integridad de la persona; activar apoyo inmediato o servicios de emergencia; informar al supervisor; suspender la actividad; registrar posteriormente.",
+      "criticidad": "Crítica",
+      "impacto": "Muy alto",
+      "keywords": [
+        "accidente",
+        "descompensación",
+        "durante",
+        "emergencia",
+        "grave",
+        "malestar",
+        "médica",
+        "ocurre",
+        "visita"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 20"
+    },
+    {
+      "id": 21,
+      "problema": "Falla de energía en la sede",
+      "descripcion": "No hay suministro eléctrico y no se puede verificar Confirmar si la interrupción es temporal; levantar   equipos o infraestructura",
+      "protocolo": "evidencia; aplicar verificación parcial autorizada; reprogramar si afecta el objetivo crítico.",
+      "criticidad": "Media",
+      "impacto": "Medio-Alto",
+      "keywords": [
+        "confirmar",
+        "eléctrico",
+        "energía",
+        "equipos",
+        "falla",
+        "infraestructura",
+        "interrupción",
+        "levantar",
+        "puede",
+        "sede",
+        "suministro",
+        "temporal",
+        "verificar"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 21"
+    },
+    {
+      "id": 22,
+      "problema": "Daño o indisponibilidad de equipos",
+      "descripcion": "Los laboratorios, dispositivos o recursos a verificar no están operativos",
+      "protocolo": "Identificar equipo afectado; solicitar explicación y soporte; registrar número de equipos disponibles y fuera de servicio; clasificar afectación.",
+      "criticidad": "Alta",
+      "impacto": "Alto",
+      "keywords": [
+        "daño",
+        "dispositivos",
+        "equipos",
+        "están",
+        "indisponibilidad",
+        "laboratorios",
+        "operativos",
+        "recursos",
+        "verificar"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 22"
+    },
+    {
+      "id": 23,
+      "problema": "Acceso restringido por evento interno",
+      "descripcion": "Existe reunión, examen, mantenimiento o actividad que bloquea el ingreso",
+      "protocolo": "Coordinar ventana alternativa el mismo día; validar autorización local; esperar solo el tiempo máximo permitido; reprogramar si corresponde.",
+      "criticidad": "Media",
+      "impacto": "Medio",
+      "keywords": [
+        "acceso",
+        "actividad",
+        "bloquea",
+        "evento",
+        "examen",
+        "existe",
+        "ingreso",
+        "interno",
+        "mantenimiento",
+        "restringido",
+        "reunión"
+      ],
+      "escalamiento": false,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 23"
+    },
+    {
+      "id": 24,
+      "problema": "Desalineación con protocolos institucionales",
+      "descripcion": "La sede indica procedimientos distintos a los comunicados oficialmente",
+      "protocolo": "Escuchar, no contradecir en sitio; validar documento oficial vigente; registrar diferencia; escalar para homologación antes de cerrar el caso.  incidentes territorialesDocumento generado para uso  4. Variaciones adicionales recomendadas para el sistema Campos mínimos por incidente: Fecha y hora, usuario/técnico, provincia/cantón/sede, geolocalización, categoría, descripción homologada, criticidad, impacto, estado, evidencia adjunta, tiempo de respuesta, responsable y observaciones. Estados sugeridos: Abierto, en gestión, escalado, reprogramado, resuelto, cerrado con novedad y cerrado sin novedad. Reglas prácticas de automatización: Priorizar alertas automáticas para incidentes críticos o de alto impacto, activar notificación a supervisión ante eventos de seguridad, y bloquear el cierre cuando falten evidencias obligatorias o datos esenciales. Uso en dashboard: La matriz permite calcular volumen de incidentes, distribución por tipo, tasa de resolución, tiempos de atención, sedes con mayor recurrencia, zonas con problemas de conectividad y patrones de criticidad por territorio. Recomendación: esta matriz puede convertirse directamente en catálogo maestro para un módulo de IA conversacional, permitiendo clasificar incidentes, sugerir la primera respuesta operativa y registrar cada interacción en el dashboard.",
+      "criticidad": "Media",
+      "impacto": "Alto",
+      "keywords": [
+        "comunicados",
+        "desalineación",
+        "distintos",
+        "indica",
+        "institucionales",
+        "oficialmente",
+        "procedimientos",
+        "protocolos",
+        "sede"
+      ],
+      "escalamiento": true,
+      "referencia": "Matriz integral de incidentes y protocolos de atención, ítem 24"
+    }
+  ]
+}

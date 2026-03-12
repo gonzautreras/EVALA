@@ -1,0 +1,375 @@
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de 
+incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territoriales
+MATRIZ DE POSIBLES PROBLEMAS EN 
+TERRITORIO
+Y PROTOCOLOS DE ATENCIÓN INDIVIDUAL
+Documento técnico operativo para gestión, clasificación y respuesta en campo
+Objetivo
+Establecer una matriz integral de incidentes 
+posibles en territorio, con protocolo de 
+atención individual, nivel de criticidad e 
+impacto institucional/operativo.
+Uso recomendado
+Aplicación móvil, dashboard de seguimiento, 
+manual operativo, capacitación de personal y 
+mesa de ayuda territorial.
+Alcance
+Visitas a sedes, validaciones logísticas, 
+levantamiento de información, contingencias 
+de operación y eventos de seguridad o 
+continuidad.
+Nota de diseño operativo: se incorporan variaciones adicionales frecuentes - como fallas de 
+energía, equipos indisponibles o desalineación de protocolos - para que la matriz pueda adaptarse 
+tanto a operativos de validación como a levantamientos territoriales en tiempo real.
+1. Criterios de clasificación
+Nivel Definición Respuesta esperada
+Baja
+No compromete gravemente la 
+operación y suele resolverse 
+localmente.
+Registro y solución en sitio.
+Media Afecta parcialmente la 
+ejecución o calidad del dato.
+Seguimiento y posible 
+escalamiento.
+Alta Compromete cumplimiento, 
+tiempo o calidad del operativo.
+Atención prioritaria y 
+escalamiento inmediato.
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de 
+incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territoriales
+Nivel Definición Respuesta esperada
+Crítica
+Pone en riesgo integridad, 
+continuidad del servicio o 
+validez general del proceso.
+Contención inmediata y 
+activación de responsables.
+2. Protocolo general mínimo de atención individual
+1. Identificar el incidente y confirmar su categoría operacional.
+2. Contener el efecto inmediato sin comprometer la seguridad del personal.
+3. Aplicar la acción inicial establecida para ese tipo de evento.
+4. Escalar a coordinación, supervisión o soporte cuando el umbral lo requiera.
+5. Registrar hora, ubicación, evidencia, descripción homologada y estado del caso.
+6. Cerrar, reprogramar o dejar pendiente con trazabilidad clara y responsable asignado.
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso 
+operativo - Matriz de incidentes territoriales
+3. Matriz integral de incidentes y protocolos de atención
+La siguiente matriz consolida escenarios base y variaciones adicionales para operaciones en territorio. Puede ser utilizada como catálogo 
+maestro de incidentes para una aplicación o dashboard.
+Nº Problema Descripción breve Protocolo de atención 
+individual Criticidad Impacto
+1 No localización de la sede
+El técnico no encuentra la 
+institución o el punto 
+asignado.
+Verificar dirección y 
+referencias; contactar al 
+enlace local; validar mapa; 
+escalar si no se ubica en 
+tiempo razonable; registrar 
+hora, intento y evidencia.
+Alta Alto
+2 Ausencia del responsable 
+local
+No se encuentra la autoridad 
+o delegado que debe atender 
+la visita.
+Presentarse formalmente; 
+solicitar reemplazo 
+autorizado; llamar al 
+contacto; esperar el tiempo 
+definido; escalar y dejar 
+constancia de visita fallida.
+Alta Alto
+3 Negativa de acceso al 
+establecimiento
+El personal local impide el 
+ingreso o desconoce la visita.
+Identificarse con credencial; 
+explicar objetivo; exhibir 
+comunicación oficial; evitar 
+confrontación; escalar a 
+coordinación; registrar 
+evidencia.
+Alta Alto
+4 Información incompleta o 
+inconsistente
+Se entregan datos parciales, 
+contradictorios o de baja 
+confiabilidad.
+Reformular preguntas clave; 
+contrastar con evidencia 
+documental o física; marcar 
+como pendiente de 
+validación; escalar si 
+compromete variables 
+críticas.
+Media Alto
+5 Fallo de conectividad
+No existe señal móvil, 
+internet o acceso estable a la 
+plataforma.
+Verificar red alternativa; 
+activar modo offline o 
+formato temporal; 
+Media Medio-Alto
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso 
+operativo - Matriz de incidentes territoriales
+Nº Problema Descripción breve Protocolo de atención 
+individual Criticidad Impacto
+resguardar datos 
+localmente; sincronizar al 
+restablecerse; reportar zona 
+sin cobertura.
+6 Fallo del dispositivo móvil
+El equipo presenta bloqueo, 
+daño, batería baja o fallas de 
+hardware.
+Reiniciar equipo o 
+aplicación; revisar batería y 
+almacenamiento; usar 
+equipo alterno si existe; 
+reportar incidencia; escalar 
+a soporte.
+Alta Alto
+7 Error de aplicación o 
+formulario
+La app no guarda, no carga 
+campos o presenta 
+validaciones defectuosas.
+Capturar evidencia; 
+reintentar una vez; aplicar 
+ruta alterna autorizada; 
+reportar a soporte; 
+continuar en registro 
+manual temporal.
+Alta Alto
+8 Ubicación GPS errónea
+Las coordenadas no 
+corresponden al sitio 
+visitado.
+Revisar permisos de 
+ubicación; repetir la toma en 
+área abierta; confirmar 
+punto manualmente; 
+registrar observación y 
+escalar si afecta trazabilidad.
+Media Medio
+9 Riesgo de seguridad 
+personal
+Existe amenaza, violencia, 
+alteración del orden o 
+entorno inseguro.
+Suspender la actividad; 
+retirarse a zona segura; 
+informar de inmediato al 
+supervisor; no insistir en la 
+visita; registrar el evento 
+cuando sea seguro.
+Crítica Muy alto
+10 Condiciones climáticas 
+adversas
+Lluvia intensa, inundación, 
+deslizamiento u otro evento 
+impide el desplazamiento.
+Evaluar riesgo real; 
+reprogramar si no existen 
+condiciones seguras; 
+informar a coordinación; 
+Alta Alto
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso 
+operativo - Matriz de incidentes territoriales
+Nº Problema Descripción breve Protocolo de atención 
+individual Criticidad Impacto
+documentar la novedad con 
+evidencia contextual.
+11 Conflicto con actor local
+Se genera discusión, 
+malentendido o resistencia 
+durante la atención.
+Mantener trato neutral; 
+reexplicar el alcance de la 
+visita; evitar confrontación; 
+solicitar apoyo institucional; 
+escalar si persiste.
+Alta Alto
+12 Identidad dudosa del 
+informante
+La persona que responde no 
+acredita rol o competencia 
+para entregar datos.
+Solicitar identificación o 
+respaldo de cargo; validar 
+autorización; no cerrar 
+registro como validado sin 
+confirmación; escalar a la 
+autoridad competente.
+Alta Alto
+13 Evidencia documental no 
+disponible
+No existen respaldos físicos 
+o digitales para verificar lo 
+informado.
+Registrar ausencia de 
+evidencia; solicitar envío 
+posterior si el protocolo lo 
+permite; dejar el caso 
+condicionado o pendiente; 
+escalar si el soporte es 
+obligatorio.
+Media Medio-Alto
+14 Cierre inesperado de la sede
+La sede está cerrada por 
+suspensión, feriado o 
+decisión local.
+Verificar horario y motivo 
+del cierre; tomar evidencia 
+externa; informar a 
+coordinación; reprogramar 
+de acuerdo con 
+lineamientos.
+Media Medio
+15 Error en asignación de visita
+El técnico fue enviado a una 
+sede incorrecta o con 
+información errónea.
+Confirmar orden de trabajo; 
+validar con coordinación 
+territorial; corregir la 
+asignación antes de 
+continuar; registrar la 
+incidencia administrativa.
+Media Alto
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso 
+operativo - Matriz de incidentes territoriales
+Nº Problema Descripción breve Protocolo de atención 
+individual Criticidad Impacto
+16 Demora excesiva en la 
+atención
+El técnico espera demasiado 
+tiempo para ser recibido o 
+atendido.
+Cumplir el tiempo máximo 
+de espera; reiterar la 
+solicitud; informar a 
+coordinación si se supera el 
+umbral; registrar la demora.
+Baja-Media Medio
+17 Pérdida de datos levantados
+La información recopilada 
+se elimina o no queda 
+guardada.
+Verificar autoguardado o 
+respaldo local; reconstruir 
+inmediatamente si es 
+posible; reportar incidente 
+técnico; marcar el caso como 
+afectado.
+Alta Muy alto
+18
+Incumplimiento del 
+protocolo por parte del 
+técnico
+Se omiten pasos, hay registro 
+incompleto o interacción 
+inadecuada.
+Identificar el 
+incumplimiento; corregir en 
+sitio si aún es posible; 
+notificar al supervisor; 
+registrar observación para 
+retroalimentación y control.
+Media Alto
+19 Solicitud fuera del alcance
+En territorio se piden 
+gestiones o respuestas no 
+contempladas en el 
+operativo.
+Explicar el alcance de la 
+visita; no comprometer 
+acciones no autorizadas; 
+registrar el requerimiento; 
+canalizar por vía 
+institucional.
+Baja Medio
+20 Emergencia médica
+Ocurre descompensación, 
+accidente o malestar grave 
+durante la visita.
+Priorizar integridad de la 
+persona; activar apoyo 
+inmediato o servicios de 
+emergencia; informar al 
+supervisor; suspender la 
+actividad; registrar 
+posteriormente.
+Crítica Muy alto
+21 Falla de energía en la sede No hay suministro eléctrico 
+y no se puede verificar 
+Confirmar si la interrupción 
+es temporal; levantar 
+Media Medio-Alto
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso 
+operativo - Matriz de incidentes territoriales
+Nº Problema Descripción breve Protocolo de atención 
+individual Criticidad Impacto
+equipos o infraestructura.
+evidencia; aplicar 
+verificación parcial 
+autorizada; reprogramar si 
+afecta el objetivo crítico.
+22 Daño o indisponibilidad de 
+equipos
+Los laboratorios, dispositivos 
+o recursos a verificar no 
+están operativos.
+Identificar equipo afectado; 
+solicitar explicación y 
+soporte; registrar número de 
+equipos disponibles y fuera 
+de servicio; clasificar 
+afectación.
+Alta Alto
+23 Acceso restringido por 
+evento interno
+Existe reunión, examen, 
+mantenimiento o actividad 
+que bloquea el ingreso.
+Coordinar ventana 
+alternativa el mismo día; 
+validar autorización local; 
+esperar solo el tiempo 
+máximo permitido; 
+reprogramar si corresponde.
+Media Medio
+24 Desalineación con 
+protocolos institucionales
+La sede indica 
+procedimientos distintos a 
+los comunicados 
+oficialmente.
+Escuchar, no contradecir en 
+sitio; validar documento 
+oficial vigente; registrar 
+diferencia; escalar para 
+homologación antes de 
+cerrar el caso.
+Media Alto
+Documento generado para uso operativo - Matriz de incidentes territorialesDocumento generado para uso operativo - Matriz de 
+incidentes territorialesDocumento generado para uso operativo - Matriz de incidentes territoriales
+4. Variaciones adicionales recomendadas para el sistema
+Campos mínimos por incidente: Fecha y hora, usuario/técnico, provincia/cantón/sede, 
+geolocalización, categoría, descripción homologada, criticidad, impacto, estado, evidencia adjunta, 
+tiempo de respuesta, responsable y observaciones.
+Estados sugeridos: Abierto, en gestión, escalado, reprogramado, resuelto, cerrado con novedad y 
+cerrado sin novedad.
+Reglas prácticas de automatización: Priorizar alertas automáticas para incidentes críticos o de 
+alto impacto, activar notificación a supervisión ante eventos de seguridad, y bloquear el cierre 
+cuando falten evidencias obligatorias o datos esenciales.
+Uso en dashboard: La matriz permite calcular volumen de incidentes, distribución por tipo, tasa 
+de resolución, tiempos de atención, sedes con mayor recurrencia, zonas con problemas de 
+conectividad y patrones de criticidad por territorio.
+Recomendación: esta matriz puede convertirse directamente en catálogo maestro para un módulo 
+de IA conversacional, permitiendo clasificar incidentes, sugerir la primera respuesta operativa y 
+registrar cada interacción en el dashboard.
