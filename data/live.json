@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-03-12T21:11:09.061Z",
+  "updatedAt": "2026-03-12T21:46:34.242Z",
   "summary": {
-    "totalReports": 124,
-    "alerts": 44,
-    "responseRate": 0.3709677419354839,
-    "avgResolutionHours": 41.32258064516129
+    "totalReports": 126,
+    "alerts": 46,
+    "responseRate": 0.38095238095238093,
+    "avgResolutionHours": 41.04761904761905
   },
   "byCategory": [
     {
       "category": "Pérdida de datos levantados",
-      "count": 8
+      "count": 10
     },
     {
       "category": "Emergencia médica Ocurre descompensación, accidente o malestar grave",
@@ -107,7 +107,11 @@
   "byProvince": [
     {
       "province": "Pichincha",
-      "count": 8
+      "count": 9
+    },
+    {
+      "province": "Cotopaxi",
+      "count": 7
     },
     {
       "province": "Manabí",
@@ -182,10 +186,6 @@
       "count": 6
     },
     {
-      "province": "Cotopaxi",
-      "count": 6
-    },
-    {
       "province": "Loja",
       "count": 3
     },
@@ -196,11 +196,11 @@
   ],
   "byStatus": [
     {
-      "status": "escalado",
-      "count": 20
+      "status": "resuelto",
+      "count": 22
     },
     {
-      "status": "resuelto",
+      "status": "escalado",
       "count": 20
     },
     {
@@ -255,7 +255,7 @@
     },
     {
       "week": "2026-W11",
-      "count": 13
+      "count": 15
     },
     {
       "week": "2026-W12",
@@ -271,6 +271,104 @@
     }
   ],
   "recentReports": [
+    {
+      "id": "EV-1773351963739",
+      "date": "2026-03-12",
+      "dateTime": "2026-03-12T21:46:03.739Z",
+      "province": "Pichincha",
+      "category": "Pérdida de datos levantados",
+      "severity": "Alta",
+      "status": "resuelto",
+      "source": "Chat Web",
+      "responseTimeHours": 6,
+      "resolutionHours": 24,
+      "summary": "Perdida de datos en Pichincha",
+      "conversation": [
+        {
+          "role": "user",
+          "text": "Perdida de datos en Pichincha",
+          "ts": "2026-03-12T21:46:01.122Z"
+        },
+        {
+          "role": "assistant",
+          "text": "Clasificación documental: Pérdida de datos levantados. Criticidad: Alta. Impacto: Muy alto. Acción inicial: Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto Escalamiento: No. Referencia: Matriz integral de incidentes y protocolos de atención, ítem 17. Provincia registrada: Pichincha.",
+          "ts": "2026-03-12T21:46:01.132Z"
+        }
+      ],
+      "agentOutput": {
+        "classification": "Pérdida de datos levantados",
+        "category": "Pérdida de datos levantados",
+        "severity": "Alta",
+        "impact": "Muy alto",
+        "solution": "Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto",
+        "escalation": false,
+        "reference": "Matriz integral de incidentes y protocolos de atención, ítem 17",
+        "confidence": 0.25,
+        "requiresManualReview": false,
+        "response": "Clasificación documental: Pérdida de datos levantados. Criticidad: Alta. Impacto: Muy alto. Acción inicial: Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto Escalamiento: No. Referencia: Matriz integral de incidentes y protocolos de atención, ítem 17."
+      },
+      "documentReference": "Matriz integral de incidentes y protocolos de atención, ítem 17",
+      "documentClassification": "Pérdida de datos levantados",
+      "documentSolution": "Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto",
+      "confidence": 0.25,
+      "manualReview": false,
+      "assignedTo": "Gonzalo",
+      "observations": [
+        {
+          "text": "Informe y cierre",
+          "at": "2026-03-12T21:46:34.242Z"
+        }
+      ]
+    },
+    {
+      "id": "EV-1773351299007",
+      "date": "2026-03-12",
+      "dateTime": "2026-03-12T21:34:59.007Z",
+      "province": "Cotopaxi",
+      "category": "Pérdida de datos levantados",
+      "severity": "Alta",
+      "status": "resuelto",
+      "source": "Chat Web",
+      "responseTimeHours": 6,
+      "resolutionHours": 24,
+      "summary": "Se perdieron datos levantados en Cotopaxi",
+      "conversation": [
+        {
+          "role": "user",
+          "text": "Se perdieron datos levantados en Cotopaxi",
+          "ts": "2026-03-12T21:34:57.024Z"
+        },
+        {
+          "role": "assistant",
+          "text": "Clasificación documental: Pérdida de datos levantados. Criticidad: Alta. Impacto: Muy alto. Acción inicial: Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto Escalamiento: No. Referencia: Matriz integral de incidentes y protocolos de atención, ítem 17. Provincia registrada: Cotopaxi.",
+          "ts": "2026-03-12T21:34:57.028Z"
+        }
+      ],
+      "agentOutput": {
+        "classification": "Pérdida de datos levantados",
+        "category": "Pérdida de datos levantados",
+        "severity": "Alta",
+        "impact": "Muy alto",
+        "solution": "Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto",
+        "escalation": false,
+        "reference": "Matriz integral de incidentes y protocolos de atención, ítem 17",
+        "confidence": 0.25,
+        "requiresManualReview": false,
+        "response": "Clasificación documental: Pérdida de datos levantados. Criticidad: Alta. Impacto: Muy alto. Acción inicial: Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto Escalamiento: No. Referencia: Matriz integral de incidentes y protocolos de atención, ítem 17."
+      },
+      "documentReference": "Matriz integral de incidentes y protocolos de atención, ítem 17",
+      "documentClassification": "Pérdida de datos levantados",
+      "documentSolution": "Verificar autoguardado o respaldo local; reconstruir inmediatamente si es posible; reportar incidente técnico; marcar el caso como afectado.  18 Incumplimiento del protocolo por parte del técnico Se omiten pasos, hay registro incompleto o interacción inadecuada. Identificar el incumplimiento; corregir en sitio si aún es posible; notificar al supervisor; registrar observación para retroalimentación y control. Media Alto",
+      "confidence": 0.25,
+      "manualReview": false,
+      "assignedTo": "Gonzalo",
+      "observations": [
+        {
+          "text": "Se resuelva con base en informe",
+          "at": "2026-03-12T21:35:30.759Z"
+        }
+      ]
+    },
     {
       "id": "EV-1773349760625",
       "date": "2026-03-12",
